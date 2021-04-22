@@ -15,6 +15,7 @@ Images in this README are from the software postman used to develop API
 ## Routes
 # POST
 /transactions
+
 Adds transactions for a specific payer and date.
 Calls insertTransaction to insert transaction in transaction array sorted by date
 
@@ -23,6 +24,7 @@ Calls insertTransaction to insert transaction in transaction array sorted by dat
 
 # PUT
 /spend
+
 Spends points, updates balances, and returns list of points spendt
 Calls spendPoints, which goes through annd edits the transactions list dependinng onn nuber of points in each transaction
 Calls groupItems to group transactions and only show total points spent for each payer
@@ -36,6 +38,7 @@ returns
 
 # GET
 /balance
+
 Calls groupItems to get totals for each payer
 GET http://localhost:5000/balance returns
 
