@@ -1,10 +1,9 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
 const insertTransaction = require("./AddTransaction");
 const spendPoints = require("./SpendPoints");
 const groupItems = require("./GroupItems");
-app.use(cors());
+
 app.use(express.json());
 
 // Array to store transactions
