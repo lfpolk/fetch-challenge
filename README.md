@@ -40,6 +40,7 @@ returns
 /balance
 
 Calls groupItems to get totals for each payer
+
 GET http://localhost:5000/balance returns
 
 <img width="215" alt="Screen Shot 2021-04-22 at 4 54 38 PM" src="https://user-images.githubusercontent.com/47434013/115789867-6ed27500-a38b-11eb-8b7c-780e8cc90700.png">
@@ -52,11 +53,15 @@ Need Node.js/npm installed
 
 Clone repository
 
-To run, first install the following: 
+To run, first install the following:
+
 npm install express
+
 npm install cors
 
 cd server
+
 start server by running with 'nodemon index' in server directory
+
 Currently the app runs on http://localhost:5000, as defined in app.listen in index.js
 
