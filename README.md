@@ -8,7 +8,7 @@
 [Installation](#Installation)
 
 ## About
-App built with Node.js and express to create routes
+Server built with Node.js and express to create routes
 Images in this README are from the software postman used to develop API
 
 
