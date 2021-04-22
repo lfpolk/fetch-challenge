@@ -13,7 +13,7 @@ Images in this README are from the software postman used to develop API
 
 
 ## Routes
-# POST
+### POST
 /transactions
 
 Adds transactions for a specific payer and date.
@@ -22,7 +22,7 @@ Calls insertTransaction to insert transaction in transaction array sorted by dat
 <img width="618" alt="Screen Shot 2021-04-22 at 4 52 25 PM" src="https://user-images.githubusercontent.com/47434013/115789685-22873500-a38b-11eb-9076-adb65b732b1c.png">
 
 
-# PUT
+### PUT
 /spend
 
 Spends points, updates balances, and returns list of points spendt
@@ -36,7 +36,7 @@ returns
 <img width="273" alt="Screen Shot 2021-04-22 at 4 53 51 PM" src="https://user-images.githubusercontent.com/47434013/115789801-55312d80-a38b-11eb-9202-826027705343.png">
 
 
-# GET
+### GET
 /balance
 
 Calls groupItems to get totals for each payer
@@ -48,7 +48,7 @@ GET http://localhost:5000/balance returns
 
 
 ## Installation
-#Prerequisites
+### Prerequisites
 Need Node.js/npm installed
 
 Clone repository
