@@ -63,5 +63,5 @@ cd server
 
 start server by running with 'nodemon index' in server directory
 
-Currently the app runs on http://localhost:5000, as defined in app.listen in index.js
+Currently the server runs on http://localhost:5000, as defined in app.listen in index.js
 
