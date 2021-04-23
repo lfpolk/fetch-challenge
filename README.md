@@ -54,15 +54,13 @@ Need Node.js/npm installed
 
 Clone repository
 
-To run, first install the following:
+To run, run the following commands in the terminal:
 
 npm install express
 
-npm install cors
-
 cd server
 
-start server by running with 'nodemon index' in server directory
+start server by running with 'nodemon index'
 
 Currently the server runs on http://localhost:5000, as defined in app.listen in index.js
 
